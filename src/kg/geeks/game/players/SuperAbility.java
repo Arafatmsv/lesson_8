@@ -7,5 +7,6 @@ public enum SuperAbility {
     BLOCK_AND_REVERT,
     SHURIKEN,
     SHIELD,
-    DISE
+    DISE,
+    HACKING
 }

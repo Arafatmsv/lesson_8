@@ -10,7 +10,7 @@ public class RPG_Game {
     public static int roundNumber;
 
     public static void startGame() {
-        Boss boss = new Boss("Dragon", 1500, 50);
+        Boss boss = new Boss("Dragon", 2000, 50);
 
         Warrior warrior1 = new Warrior("Artur", 280, 10);
         Warrior warrior2 = new Warrior("Ahilles", 290, 15);
@@ -21,9 +21,10 @@ public class RPG_Game {
         Samurai samurai = new Samurai("Ashura", 270, 5);
         Avenger avenger = new Avenger("Captain America", 280, 10);
         Ludoman ludoman = new Ludoman("Ludik", 270, 5);
+        Hacker hacker = new Hacker("Anonimus", 260, 6);
 
 
-        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, samurai, avenger, ludoman};
+        Hero[] heroes = {warrior1, doc, warrior2, magic, berserk, assistant, samurai, avenger, ludoman, hacker};
 
         printStatistics(boss, heroes);
 
